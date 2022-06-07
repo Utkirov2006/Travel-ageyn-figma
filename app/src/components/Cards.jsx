@@ -1,18 +1,19 @@
 export default function Cards(props) {
     console.log(props.name);
     return (
-        <div className="card" style={{ background: "silver", color: "red", display: `${props.show ? "inline-block" : "none"}` }}>
 
-            <img src={props.img} alt="bts" className="avatar" />
-            
+        <div className="card">
 
-            <h2 className="name">{props.name}</h2>
+            <h1>It’s a Big World <br />
+                Out There, Go <br />
+                Explore</h1>
+            <ol>Conveniently customize proactive web services for leveraged without <br />
+                continualliery aggregate fricctionle ou wellies richard.and very <br />
+                customize  continually.</ol>
 
-            <h4>{props.num}</h4>
-            <p>{props.job}</p>
-            <p>{props.children}</p>
+            <button className="btn2">Get Exploration </button>
+            <button className="btn3">Read More</button>
 
-            <button className="btn">Add User</button>
         </div>
     )
 }
